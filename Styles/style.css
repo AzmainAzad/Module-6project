@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* font-family: "Open Sans", sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Css of header */
+.header{
+background-color: #FFF8F3;
+padding: 50px;
+background-image: url('../images/developer.png'),url('../images/header_bg.png');
+background-position: top left, bottom right;
+background-repeat: no-repeat;
+}
+
+/* Css of navbar */
+.nav-title{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 180px;
+}
+
+.des-r{
+    color: #FD6E0A;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.list-container{
+    display: flex;
+    
+}
+
+.nav-btn{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    padding: 18px 36px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.dark-2{
+    color: #474747;
+}
+
+/* Css of Banner  */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+
+    
+}
+
+.banner-description{
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 20px;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+
+.banner-content{
+    width: 580px;
+    margin-left: 180px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.btn-container{
+    margin-top: 30px;
+}
+.btn-space{
+    margin-right: 30px;
+}
+
+.contract-btn{
+    background-color: #FFF8F3;
+    padding: 18px 36px;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    border-color: #FD6E0A;
+    border-radius: 5px;
+}
+
+.banner-profile{
+    width: 584px;
+    height: 676px;
+    
+}
