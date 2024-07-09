@@ -122,3 +122,53 @@ nav li a{
     height: 676px;
     
 }
+
+/* Css of about section */
+
+.about{
+    max-width: 1140px;
+    background-color: #FFF8F3;
+    display: flex;
+    justify-content: center;
+    margin: 130px auto;
+    padding: 131px 0 ;
+}
+
+.about-container{
+    max-width: 827px;
+    text-align: center;
+    background-color: white;
+    
+}
+
+.about-title{
+    font-size: 35px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+
+.about-description{
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    color: #757575;
+    margin-bottom: 30px;
+    
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ab-it-p{
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    color: #757575;
+}
+
+.ab-it-h{
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+}
