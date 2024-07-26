@@ -238,6 +238,79 @@ nav li a{
 }
 
 /* Css of Resume Section */
+.resume{
+    background-color: rgba(117, 117, 117, 0.02);
+    padding: 130px 230px;
+}
+
+.resumeh1{
+    font-size: 35px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.column-container{
+    display: flex;
+    gap: 20px;
+}
+
+.c-c-h3{
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    color: rgba(71, 71, 71, 1);
+    margin-bottom: 30px;
+}
+
+.col-h4{
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    color: rgba(71, 71, 71, 1);
+    margin-bottom: 10px;
+}
+
+.col-h5{
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    color: rgba(117, 117, 117, 1);
+    margin-bottom: 20px;
+}
+
+.col-p{
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: rgba(117, 117, 117, 1);
+    margin-bottom: 20px;
+}
+
+.col-items hr{
+    margin-bottom: 40px;  
+}
+
+.r-btn-container{
+    text-align: center;
+}
+
+.r-btn{
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 19px 17px;
+    margin-top: 20px;
+}
+
+
+
+/* Css of footer part */
 .footer{
     background-color: #FFF8F3;
     padding: 130px 230px;
@@ -250,7 +323,7 @@ nav li a{
     width: 50%;
 }
 
-.footerh2{
+.footer-h2{
     font-size: 35px;
     font-family: "Open Sans", sans-serif;
     font-weight: bold;
